@@ -39,6 +39,6 @@ washington.csv
 new_york_city.csv
 
 ### Credits
-This project is created as a part of the Udacity 'Data Analytics with Python' Nanodegree Program. 
+This project is created as a part of the Udacity 'Programming for Data Science with Python' Nanodegree Program. 
 
 
