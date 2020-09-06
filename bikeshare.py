@@ -4,7 +4,7 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'Washington DC': 'Washington.csv' }
 
 MONTHS_DICT = {
                 'january': 1, 'february': 2,
@@ -33,7 +33,7 @@ def get_filters():
     city = ""
     while city == "":
         w = input('\nWhich city do you want to analyze?\n Enter "Chicago", '
-            '"New York City", or "Washington", or type "Break" to escape. ').lower().strip()
+            '"New York City", or "Washington DC", or type "Break" to escape. ').lower().strip()
         if w in CITY_DATA:
             city = w
         elif w == 'break':
@@ -161,9 +161,9 @@ def user_stats(df, city):
     print('\n')
 
     # User count by gender and user birth statistics;
-    # Unavailable for washington
-    if city == 'washington':
-        print('User gender and birth year data unavailable for Washington.')
+    # Unavailable for Washington DC
+    if city == 'Washington DC':
+        print('User gender and birth year data unavailable for Washington DC.')
     else:
         print(df.groupby(['Gender'])['Gender'].count())
 
