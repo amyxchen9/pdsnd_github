@@ -11,7 +11,7 @@ Users have the ability to filter the analysis by:
 	1) Month of travel and/or
 	2) Weekday of travel
 
-For the selected filter(s), outputs includes:
+For the selected filter(s), outputs include:
 1) Statistics on the most frequent travel times, including:
 	a. Most common month of travel
 	b. Most common weekday of travel
